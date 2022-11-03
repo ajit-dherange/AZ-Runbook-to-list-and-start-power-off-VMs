@@ -28,7 +28,7 @@ $ Stop-AzVM -ResourceGroupName "myResourceGroup" -Name "myVM01"
 
 5. Create Automation account (Home > Automation Accounts > Create > Select Resource Group Name "myResourceGroup" & provide Automation account Name "autouser01"> Review + Create
 
-Note: you can repeat steps 2 and 3 for creating more VMs 
+Note: you can repeat steps 2 and 3 for creating more VMs (don't forget to change VM names)
 
 # Create Runbook ....
 
