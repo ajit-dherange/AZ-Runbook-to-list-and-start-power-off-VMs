@@ -20,8 +20,6 @@ $ $vm = Get-AzureRmVM -ResourceGroupName "myResourceGroup" -VMName "myVM01"
 
 $ $vm.HardwareProfile.VmSize = "Standard_B2s"
 
-$ $vm.HardwareProfile.VmSize = "Standard_DS1_v2"
-
 4. Power off VM
 
 $ Stop-AzVM -ResourceGroupName "myResourceGroup" -Name "myVM01"
