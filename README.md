@@ -6,6 +6,8 @@ Azure PowerShell Runbook to detect and start all power off VMs
 
 LAB Prerequisite:
 
+Login to Azure portal, open cloud shell, select powershell and create lab using below powershell commands ...
+
 1. Create resource group
 
 $ New-AzResourceGroup -Name 'myResourceGroup' -Location 'EastUS'
