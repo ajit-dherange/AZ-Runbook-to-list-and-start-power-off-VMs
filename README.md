@@ -28,6 +28,7 @@ $ Stop-AzVM -ResourceGroupName "myResourceGroup" -Name "myVM01"
 
 5. Create Automation account (Home > Automation Accounts > Create > Select Resource Group Name "myResourceGroup" & provide Automation account Name "autouser01"> Review + Create
 
+Note: you can repeat steps 2 and 3 for creating more VMs 
 
 # Create Runbook ....
 
@@ -43,7 +44,8 @@ $ Stop-AzVM -ResourceGroupName "myResourceGroup" -Name "myVM01"
     Select Create
     
 4. Add code to the runbook
-    download attached code and paste it on pane
+    copy code from the attached script "AZRB-Test002_v2.ps1" and paste it on your new runbook code pane 
+    Note: Verify your $resourceGroupName @ line no. 5. update if required
     
 5. Test the runbook
     a. Select Test pane to open the Test page.
@@ -55,7 +57,7 @@ $ Stop-AzVM -ResourceGroupName "myResourceGroup" -Name "myVM01"
 6. Publish and start the runbook
 
     The runbook that you've created is still in Draft mode. You must publish it before you can run it in production. 
-     When you publish a runbook, you overwrite the existing Published version with the Draft version. In this case, you don't have a Published version yet because 
+    When you publish a runbook, you overwrite the existing Published version with the Draft version. In this case, you don't have a Published version yet because 
     you just created the runbook.
 
     Select Publish to publish the runbook and then Yes when prompted.
