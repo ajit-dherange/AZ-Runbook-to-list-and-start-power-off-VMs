@@ -44,7 +44,7 @@ Note: you can repeat steps 2 and 3 for creating more VMs (don't forget to change
     Select Create
     
 4. Add code to the runbook
-    copy code from the attached script "AZRB-Test002_v2.ps1" and paste it into your new runbook code pane 
+    copy code from the attached script "AZRB-pwronvm_v2.ps1" and paste it into your new runbook code pane 
     Note: Verify your $resourceGroupName in the line no. 5, update it if required
     
 5. Test the runbook
@@ -84,7 +84,7 @@ Prerequisite : Resourese group, Azure ID with Ditributed permission on the Resou
     Select Create
     
 4. Add code to the runbook
-    copy code from the attached script "AZRB-Test002_v2.ps1" and paste it into your new runbook code pane 
+    copy code from the attached script "AZRB-pwronvm_v2.ps1" and paste it into your new runbook code pane 
     Note: Update youre $resourceGroupName in the line no. 5
     
 5. Test the runbook
