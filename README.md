@@ -141,7 +141,7 @@ $vnet = @{
 }
 $virtualNetwork = New-AzVirtualNetwork @vnet
 or
-$virtualNetwork = New-AzVirtualNetwork -Name 'vnet-1' -ResourceGroupName 'myResourceGroup' -Location 'eastus' -Location 'eastus' -AddressPrefix '10.0.0.0/16'
+$virtualNetwork = New-AzVirtualNetwork -Name 'vnet-1' -ResourceGroupName 'myResourceGroup' -Location 'eastus' -AddressPrefix '10.0.0.0/16'
 
 2) Create new subnet
 $subnet = @{
