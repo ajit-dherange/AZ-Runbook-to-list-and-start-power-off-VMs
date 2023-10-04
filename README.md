@@ -134,18 +134,18 @@ Prerequisite : Resourese group, Azure ID with Ditributed permission on the Resou
 Some more useful PowerShell commands:
 1) Create vNet
 $vnet = @{
-    Name = 'vnet-1'
+    Name = 'myVnet-1'
     ResourceGroupName = 'myResourceGroup'
     Location = 'eastus'
     AddressPrefix = '10.0.0.0/16'
 }
 $virtualNetwork = New-AzVirtualNetwork @vnet
 or
-$virtualNetwork = New-AzVirtualNetwork -Name 'vnet-1' -ResourceGroupName 'myResourceGroup' -Location 'eastus' -AddressPrefix '10.0.0.0/16'
+$virtualNetwork = New-AzVirtualNetwork -Name 'myVnet-1' -ResourceGroupName 'myResourceGroup' -Location 'eastus' -AddressPrefix '10.0.0.0/16'
 
 2) Create new subnet
 $subnet = @{
-    Name = 'subnet-1'
+    Name = 'mySubnet-1'
     VirtualNetwork = $virtualNetwork
     AddressPrefix = '10.0.0.0/24'
 }
